@@ -45,9 +45,7 @@ fetch('https://lambda-times-api.herokuapp.com/articles')
             ))
     })
     .catch(err =>{
-        window.addEventListener('load', event =>{
-            alert(err)
-        })
+        alert(err)
     })
 // <div class="card">
 //   <div class="headline">{Headline of article}</div>
